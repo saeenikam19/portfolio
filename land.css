@@ -1,47 +1,67 @@
 body {
   font-family: 'Helvetica Neue', sans-serif;
   color: #000000;
-  background-color: #fafafa;
+  background-color: #ffffff;
 }
 
 header {
   padding: 15px;
   margin-top: 3px;
-  border: 3px solid rgb(0, 0, 0);
-  background-color: rgb(255, 252, 252);
+  border: 3px solid rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  color: #fcfffb;
   text-align: center;
   font-size: large;
   letter-spacing: 5px;
-  text-shadow: 15.3px 15.3px 15.3px rgb(0, 0, 0);
+  text-shadow: 20px 20px 8px rgba(0,0,0,0.15);
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+  gap: 400px;
+  justify-content: center;
+  align-items: flex-start;
+
 }
 
 section {
-  padding: 5%;
-  margin: 3%;
-  background-color: rgb(146, 200, 184);
+  padding: 3rem;
+  margin: 2rem 0;
+  background-color: rgb(146, 202, 149);
+  color: #000000;
   text-align: left;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   border-radius: 12px;
+  width: 100%;
+  max-width: 900px;
 }
 
-
 section img {
-  padding: 1%;
-  margin: 0 auto 3% auto;
-  height: auto;
-  width: 100%;
-  max-width: 300px;
   position: relative;
-  background-color: rgb(146, 200, 184);
+  margin: 1rem;
+  padding: 2rem;
+  width: 200px;
+  height: 200px;
+  
+  background-color:  #fcfffb;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   border-radius: 12px;
-  display: block;
   transition: transform 0.3s ease;
 }
 
 section img:hover {
   transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
 
+ul {
+  padding-left: 1.5rem;
+}
 
+ul li {
+  margin-bottom: 0.5rem;
+}
 
