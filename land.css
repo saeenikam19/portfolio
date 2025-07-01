@@ -20,7 +20,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   height: 100%;
-  width: 100%;
+  width: 100%;  
   gap: 400px;
   justify-content: center;
   align-items: flex-start;
