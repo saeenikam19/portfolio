@@ -31,7 +31,7 @@ section {
 .flip-card {
   background-color: transparent;
   width: 300px;
-  height: 200px;
+  height: 250px;
   perspective: 1000px;
 }
 
@@ -65,6 +65,12 @@ section {
   background-color: #070808;
   color: white;
 
+}
+img{
+  justify-content: flex-start;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
 }
 .flip-card-back {
   background-color: #000000;
