@@ -68,3 +68,15 @@ nav a {
     text-decoration: none;
     transition: background-color 0.8s ease;
 }
+nav a:hover {
+    transform: scale(1.1);
+    background-color: #515151;
+}
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 8px;
+    background-color: #023e8a;
+    color: #ffffff;
+    font-size: 0.9rem;
+}
