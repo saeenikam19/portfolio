@@ -73,10 +73,8 @@ nav a:hover {
     background-color: #515151;
 }
 footer {
-    text-align: center;
-    margin-top: 40px;
-    padding: 8px;
-    background-color: #023e8a;
-    color: #ffffff;
-    font-size: 0.9rem;
+  text-align: center;
+  padding: 20px;
+  background-color: #f1f1f1; 
+  margin-top: 50px;
 }
