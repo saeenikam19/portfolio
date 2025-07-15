@@ -55,12 +55,13 @@ ul li {
 
 nav a {
     
-    flex-wrap: wrap;
+    text-decoration: none;
+    
     color: #ffffff;
     background-color: #0077b6;
     padding: 10px 8px;
-    display: flexbox;
-    justify-items: center;
+    display:grid;
+    justify-content: center;
     gap: 20px;
     align-items: center;
     border-radius: 8px;
