@@ -14,6 +14,7 @@ body {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     display:flexbox;
     flex-wrap: wrap;
+    font-size: large;
     justify-content: center;
     align-items: center;
 }
@@ -70,7 +71,6 @@ nav a {
     text-decoration: none;
 }
 nav a:hover {
-    
     transform: scale(1.1);
     background-color: #d0e7f9;
     color: #023e8a;
